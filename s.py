@@ -9,7 +9,7 @@ def greet(name):
     print("Hello, " + name)  # Variable name typo
 
 for i in range(5):
-print(i)  # Missing indentation
+    print(i)  # Missing indentation
 
 my_list = [1, 2, 3]
 print(my_list[2])  # IndexError: out of range
